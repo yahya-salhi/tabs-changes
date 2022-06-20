@@ -1,0 +1,18 @@
+@use '../utility/' as u;
+html{
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+font-family:u.$font;
+background:var(--clr-grey-10);
+color: var(--clr-grey-1);
+line-height: 1.6;
+font-size: .875rem;
+}
